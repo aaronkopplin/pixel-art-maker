@@ -1,8 +1,5 @@
 import pygame
 import time
-from tkinter import *
-from tkinter.colorchooser import askcolor
-from tkinter import messagebox
 
 # necessary
 pygame.init()
