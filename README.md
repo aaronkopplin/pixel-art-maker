@@ -1,6 +1,10 @@
 # pixel-art-maker
 python GUI application for creating and saving pixel art
 
+DEPENDENCIES
+
+Download and install pygame, tkinter for python 3.
+
 HOW TO USE THE APPLICATION
 
 Use the mouse to select pixels to color. Clicking and dragging supported.
