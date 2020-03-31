@@ -3,7 +3,7 @@ python GUI application for creating and saving pixel art
 
 DEPENDENCIES
 
-Download and install pygame, tkinter for python 3.
+Download and install pygame python 3.
 
 HOW TO USE THE APPLICATION
 
