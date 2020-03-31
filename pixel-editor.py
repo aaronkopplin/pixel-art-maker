@@ -77,12 +77,12 @@ class window():
 		pygame.display.update()
 
 	def export_pixels(self):
-		file = open("pixels.txt","w") 
+		file = open("pixels.csv","w") 
 		for p in self.pixels:
-			file.write("" + str(p.x) + " " + 
-				str(p.y) + " " + 
-				str(p.get_width()) + " " + 
-				str(p.get_height()) + " " +
+			file.write("" + str(p.x) + "," + 
+				str(p.y) + "," + 
+				str(p.get_width()) + "," + 
+				str(p.get_height()) + "," +
 				str(p.get_color()) + "\n")
 
 		file.close()
